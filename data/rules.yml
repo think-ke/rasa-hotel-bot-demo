@@ -1,0 +1,11 @@
+version: "2.0"
+rules:
+  - rule: Submit form book_room_form
+    condition:
+    - active_loop: book_room_form
+    steps:
+    - action: book_room_form
+    - active_loop: null
+    # The action we want to run when the form is submitted.
+    - action: action_submit_book_room_form
+    - action: action_book_rooms_details

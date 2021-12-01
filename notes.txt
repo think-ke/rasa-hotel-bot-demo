@@ -1,0 +1,12 @@
+change pipeline definition syntax
+
+convert config file through 'rasa data convert config'
+	warning: 'Your model configuration contains the 'FormPolicy'. Note that this command does not migrate 
+		  the 'FormPolicy' and you have to migrate the 'FormPolicy' manually'. 
+	solution for above warning: simply remove FormPolicy from policies. It has been already benn replaced with RulePolicy
+	by 'rasa data convert config' command
+
+
+convert nlu.yml and stories.yml files to 2.0 format through:
+	- rasa data convert nlu -f yaml --data=./data/nlu --out=./data/nlu
+	- rasa data convert core -f yaml --data=./data/nlu --out=./data/nlu
