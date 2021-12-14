@@ -8,6 +8,10 @@ nlu:
     - good morning
     - good evening
     - hey there
+    - Hi
+    - greetings
+    - Hello
+    - Greetings
 - intent: nearest_attraction
   examples: |
     - nearest attraction
@@ -18,17 +22,14 @@ nlu:
     - NEAREST ATTRACTIONS
 - intent: marine_drive
   examples: |
-    # - Read More
     - marine Drive
     - Marine Drive
 - intent: mattancherry
   examples: |
-    # - Read More
     - mattancherry
     - Mattancherry
 - intent: fort_kochi
   examples: |
-    # - Read More
     - Fort kochi
     - fort kochi
 - intent: book_rooms
@@ -39,17 +40,14 @@ nlu:
     - Book Room
 - intent: dulex_room_details
   examples: |
-    # - Read More
     - Dulex Room
     - dulex room
 - intent: junior_suite_details
   examples: |
-    # - Read More
     - Junior Suite
     - junior suite
 - intent: club_suite_details
   examples: |
-    # - Read More
     - Club Suite
     - club suite
 - intent: book_room_now
