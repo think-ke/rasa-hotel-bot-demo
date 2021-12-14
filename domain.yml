@@ -159,16 +159,8 @@ responses:
     - payload: /room
       title: '3'
     text: How many rooms would you like to book?
-    
-  - facebook:
-    - buttons:
-      - payload: /room
-        title: '1'
-      - payload: /room
-        title: '2'
-      - payload: /room
-        title: '3'
-      text: How many rooms would you like to book for facebook?
+    channel: "facebook"
+  
   utter_babycot:
   - text: Yes.Baby cots are available in our hotel
   utter_breakfasttime:
